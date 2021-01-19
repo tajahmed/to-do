@@ -73,7 +73,7 @@ function App() {
           <input
             type='text'
             className='grocery'
-            placeholder='e.g. eggs'
+            placeholder='e.g. Books'
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
